@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Invitation</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- WhatsApp Preview -->
+<meta property="og:title" content="You're Invited 💖">
+<meta property="og:description" content="Join our special day 🎉">
+<meta property="og:image" content="images/photo1.jpg">
+
+</head>
+
+<body>
+
+<!-- HOME SCREEN -->
+<div id="home">
+    <h1 class="welcome">Welcome 💖</h1>
+    <button onclick="openInvite()">Open Invitation</button>
+</div>
+
+<!-- INVITATION -->
+<div id="invitation">
+
+    <h2 class="title">You're Invited 🎉</h2>
+    <p class="subtitle">Mature Function Celebration</p>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <img src="images/photo1.jpg">
+        <img src="images/photo2.jpg">
+    </div>
+
+    <!-- Details -->
+    <div class="details">
+        <p>📅 Date: 2 April</p>
+        <p>⏰ Time: 10:00 PM</p>
+    </div>
+
+    <!-- ✅ YOUR GOOGLE MAP LINK ADDED HERE -->
+    <a class="location-btn" href="https://maps.app.goo.gl/QdDhKfbC9n9CVAnG7?g_st=aw" target="_blank">
+        📍 Open Function Hall Location
+    </a>
+
+    <!-- Music -->
+    <audio id="music" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button onclick="playMusic()">▶ Play Music</button>
+        <button onclick="shareWhatsApp()">📲 Share</button>
+    </div>
+
+    <!-- Feedback -->
+    <div class="feedback-box">
+        <h3>Feedback 💬</h3>
+        <textarea id="feedback" placeholder="Write your wishes..."></textarea>
+        <button onclick="submitFeedback()">Submit</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
