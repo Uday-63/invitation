@@ -1,80 +1,32 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI';
     text-align: center;
-    background: linear-gradient(to right, #f7971e, #ffd200);
+    font-family: Arial;
 }
 
 /* HOME */
 #home {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 100px;
 }
 
-.welcome {
-    font-size: 40px;
-    animation: fadeIn 2s ease-in-out;
+/* 🔥 THIS IS IMPORTANT */
+#invitation {
+    display: none;
 }
 
 button {
-    padding: 12px 25px;
+    padding: 10px 20px;
     margin: 10px;
-    border: none;
-    border-radius: 25px;
     background: #ff4e50;
     color: white;
-    cursor: pointer;
-    font-size: 16px;
+    border: none;
+    border-radius: 10px;
 }
 
-button:hover {
-    background: #fc913a;
-}
-
-/* INVITATION */
-#invitation {
-    display: none;
-    padding: 20px;
-    animation: fadeIn 1.5s;
-}
-
-.title {
-    font-size: 30px;
-}
-
-.subtitle {
-    font-size: 18px;
-}
-
-/* Gallery */
-.gallery img {
-    width: 150px;
-    margin: 10px;
-    border-radius: 15px;
-}
-
-/* LOCATION BUTTON */
 .location-btn {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 20px;
     background: #4285F4;
     color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     text-decoration: none;
-    margin: 15px;
-}
-
-/* Feedback */
-.feedback-box textarea {
-    width: 80%;
-    height: 80px;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
 }
